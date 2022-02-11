@@ -1,3 +1,7 @@
+package core;
+
+import interfaces.ICompareWord;
+
 import java.util.Arrays;
 
 public class CompareWord implements ICompareWord {

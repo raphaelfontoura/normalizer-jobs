@@ -1,4 +1,11 @@
-public class Normaliser {
+package core;
+
+import core.enums.NormalizedJobsEnum;
+import interfaces.ICompareWord;
+import interfaces.INormaliser;
+import interfaces.IWordHandle;
+
+public class Normaliser implements INormaliser {
 
     private ICompareWord compareWord;
     private IWordHandle wordHandler;
@@ -13,6 +20,7 @@ public class Normaliser {
         this.wordHandler = wordHandle;
     }
 
+    @Override
     public String normalise(String input) {
         var word = wordHandler.HandleWord(input);
         var qualityCompare = .1f;

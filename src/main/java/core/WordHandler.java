@@ -1,4 +1,6 @@
-import java.util.Locale;
+package core;
+
+import interfaces.IWordHandle;
 
 public class WordHandler implements IWordHandle {
     @Override

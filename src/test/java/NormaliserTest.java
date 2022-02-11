@@ -1,3 +1,4 @@
+import core.Normaliser;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

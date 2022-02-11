@@ -1,3 +1,5 @@
+package core.enums;
+
 public enum NormalizedJobsEnum {
     ARCHITECT {
         @Override

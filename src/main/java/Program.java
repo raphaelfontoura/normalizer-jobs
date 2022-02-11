@@ -1,3 +1,5 @@
+import core.Normaliser;
+
 import java.util.Scanner;
 
 public class Program {
